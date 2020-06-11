@@ -3,29 +3,39 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
   <title>Frontend Mentor | Fylo data storage component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="wrapper">
+    <div class="logo-wrapper">
+      <img class="logo" src="img/logo.svg" alt="a sad stack of papers and the uninteresting name, that I think stands for Figure Your Life Out, FYLO">
+      <div class="icon-wrapper">
+        <img class="icon documentIcon" src="img/icon-document.svg" alt="a dog-eared piece of paper, it does nothing">
+        <img class="icon folderIcon" src="img/icon-folder.svg" alt="a folder icon that also does less than nothing">
+        <img class="icon uploadIcon" src="img/icon-upload.svg" alt="lastly an upload icon that is intentionally deceptive, a waste">
+      </div>
+    </div>
+    <div class="data-wrapper">
+      <div class="inner-data-wrapper">
+        <h1>You’ve used <span class="gbSpan">815 GB</span> of your storage</h1>
+        <div class="progress">
+          <div class="progress-bar">
+            <div class="progress-pink">
+              <div class="progress-ball"></div>
+            </div>
+          </div>
+          <div class="gb-level"> 
+            <p class="bar-begin">0 GB</p> 
+            <p class="bar-end">1000 GB</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <div class="gb-left">
+      <h1>185 <span class="gb-left-text">GB LEFT</span></h1>
+    </div> 
   </div>
 </body>
 </html>

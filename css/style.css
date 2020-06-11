@@ -1,0 +1,146 @@
+@font-face {
+	font-family: "Raleway-reg";
+	src: url("fonts/Raleway-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Raleway-bold";
+	src: url("fonts/Raleway-Bold.ttf");
+}
+
+/*     Pre-set css      */
+
+.attribution {font-size: 11px; text-align: center;}
+.attribution a {color: hsl(228, 45%, 44%);}
+
+body {
+	background-image: url('../img/bg-mobile.svg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	font-size: 14px;
+	font-family: "Raleway-reg";
+	color: white;
+}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+.logo-wrapper {
+	text-align: center;
+	margin-top: 11rem;
+	margin-bottom: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-top: 3rem;
+	padding-bottom: 2rem;	
+	padding-right: 7rem;
+	border-radius: 8px 90px 8px 8px;
+	background-color: hsl(228, 56%, 26%);
+}
+
+.icon-wrapper {
+	padding-top: 30px;
+	padding-left: 3rem;
+	
+}
+
+.icon {
+	padding: 12px;
+	border-radius: 8px;
+	margin-right: 10px;
+	background-color: hsl(229, 57%, 11%);
+}
+
+.folderIcon {
+	padding-bottom: 13px;
+	padding-top: 15px;
+}
+
+.uploadIcon {
+	padding-bottom: 16px;
+	padding-top: 16px;
+}
+
+.data-wrapper {
+	text-align: center;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	padding-top: 3rem;	
+	padding-bottom: 40px;
+	border-radius: 8px 8px 8px 8px;
+	background-color:hsl(228, 56%, 26%);
+}
+
+.inner-data-wrapper h1 {
+	font-size: 14px;
+	color: hsl(229, 7%, 55%);
+	padding-bottom: 1rem;
+}
+
+.progress-bar {
+	height: 20px;
+	width: 80%;
+	margin: auto;
+	border-radius: 50px;
+	background-color: hsl(229, 57%, 11%);
+}
+
+.progress-pink {
+	height: 19px;
+	width: 80%;
+	border-radius: 50px;
+	background: #fcecfc; /* Old browsers */
+	background: -moz-linear-gradient(left,  #fcecfc 0%, #fba6e1 63%, #fd89d7 77%, #fd89d7 77%, #ff7cd8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  #fcecfc 0%,#fba6e1 63%,#fd89d7 77%,#fd89d7 77%,#ff7cd8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  #fcecfc 0%,#fba6e1 63%,#fd89d7 77%,#fd89d7 77%,#ff7cd8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=1 ); /* IE6-9 */
+}
+
+.progress-ball {
+	height: 19px;
+	margin-top: -1px;
+  margin-left: 92%;
+	border-radius: 50px;
+	background-color: white;
+}
+
+.gbSpan {
+	color: white;
+	font-family: "Raleway-bold";
+}
+
+.gb-level {
+	margin-top: 1rem;
+	text-align: left;
+}
+
+.gb-level p {display: inline;}
+
+.bar-begin {margin-left: 10%;}
+
+.bar-end {margin-left: 55%;}
+
+.gb-left {
+	border: 2px white solid;
+	margin-left: 6rem;
+	margin-right: 6rem;
+	background-color: white;
+	color: black;
+	margin-top: -20px;
+	text-align: center;
+	border-radius: 8px;
+	margin-bottom: 8rem;
+}
+
+.gb-left h1 {
+	font-family: "Raleway-bold";
+}
+
+.gb-left-text {
+	font-size: 14px;
+	color: hsl(229, 7%, 55%);
+}
