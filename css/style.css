@@ -144,3 +144,12 @@ body {
 	font-size: 14px;
 	color: hsl(229, 7%, 55%);
 }
+
+@media screen and (min-width: 1240px) {
+	body {
+		background-image: url('../img/bg-desktop.svg');
+		height: 100%;
+		background-size: auto;
+		background-color: hsl(229, 57%, 11%);
+	}
+}
